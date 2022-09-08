@@ -6,5 +6,3 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs16.x
-      Role: arn:aws:iam::406067944890:role/sam-test-deploy-HelloWorldFunctionRole-1QKJ5MGWY28S
- 
