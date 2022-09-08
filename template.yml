@@ -6,4 +6,4 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs16.x
-      Role: arn:aws:iam::406067944890:role/09876
+      
