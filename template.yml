@@ -6,4 +6,8 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs16.x
-      
+      Policies:
+      - lambda-allfor-sam
+      - AWSCloudFormationFullAccess
+      - AmazonS3FullAccess
+      - IAMFullAccess
