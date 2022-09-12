@@ -6,3 +6,16 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs16.x
+      Role: arn:aws:iam::406067944890:role/test-lambda
+  HelloWorld1Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index1.handler
+      Runtime: nodejs16.x
+      Role: arn:aws:iam::406067944890:role/test-lambda  
+  HelloWorld2Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index2.handler
+      Runtime: nodejs16.x
+      Role: arn:aws:iam::406067944890:role/test-lambda 
