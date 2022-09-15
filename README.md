@@ -1,5 +1,2 @@
-# sam-repo
-repository for sam template
-
-
+# SAM-REPO
 repository for sam template
